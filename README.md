@@ -1,145 +1,125 @@
 # 🛍️ Customer Segmentation for CRM Optimization
 
-## 🎯 Objective
-
-The goal of this project is to analyze customer behavior and build a segmentation model to improve CRM targeting and increase customer lifetime value.
-
----
-
-## 📊 Dataset
-
-Retail transactional dataset including:
-
-* 👤 Customers
-* 🛒 Orders
-* 📦 Products
-* 💳 Payments
+## 🚀 Project Overview
+This project focuses on analyzing customer behavior to build a data-driven segmentation model and enhance CRM strategies.  
+By combining advanced analytics and interactive dashboards, it enables businesses to better understand their customers, personalize marketing efforts, and maximize customer lifetime value.
 
 ---
 
-## ⚙️ Tools & Technologies
-
-* **Python** (Pandas, NumPy, Scikit-learn)
-* **SQL**
-* **Power BI**
+## 🎯 Business Objective
+- Identify high-value customer segments
+- Detect at-risk customers
+- Improve targeting and personalization
+- Support strategic CRM decision-making
 
 ---
 
-## 🔍 Analysis Workflow
+## 📊 Dashboard (Power BI)
+
+An interactive Power BI dashboard was developed to translate analytical results into actionable business insights.
+
+### 🔹 Executive CRM View
+![Executive](dashboard/overview.png)
+
+### 🔹 Customer Segmentation Analysis
+![Segmentation](dashboard/segmentation.png)
+
+### 🔹 Revenue & Performance Analysis
+![Performance](dashboard/performance.png)
+
+### 🔹 Strategic CRM Actions
+![Strategy](dashboard/strategy.png)
+
+---
+
+## 🧠 Methodology
 
 ### 1. Data Preparation
-
-* Data cleaning and preprocessing
-* Handling missing values
-* Feature engineering
+- Data cleaning and preprocessing  
+- Handling missing values  
+- Data consistency checks  
 
 ### 2. Feature Engineering
-
-Creation of behavioral metrics:
-
-* Recency (days since last purchase)
-* Frequency (number of purchases)
-* Monetary value (total spend)
-* Average order value
-* Customer engagement indicators
+Creation of key behavioral indicators:
+- Recency (days since last purchase)
+- Frequency (number of transactions)
+- Monetary value (total spend)
+- Average order value
+- Engagement metrics
 
 ### 3. Modeling
-
-* Standardization of features
-* K-Means clustering
-* Elbow method to determine optimal number of clusters
-* Final segmentation into **4 customer groups**
+- Feature standardization  
+- K-Means clustering  
+- Elbow method to determine optimal clusters  
+- Segmentation into 4 distinct customer groups  
 
 ---
 
 ## 👥 Customer Segments
 
-### 🟣 Cluster 0 — High-value customers
+### 🟣 High-Value Customers (VIP)
+- High spending
+- Frequent purchases
+- Strong engagement  
+➡️ Priority: Retention & premium experience
 
-* High monetary value
-* High purchase frequency
-* Strong CRM potential
+### 🔴 At-Risk Customers
+- Long inactivity
+- Low engagement  
+➡️ Priority: Reactivation campaigns
 
-### 🔴 Cluster 1 — Inactive / at-risk customers
+### 🔵 Moderate Customers
+- Balanced behavior  
+➡️ Priority: Upsell & cross-sell
 
-* High recency (long time since last purchase)
-* Low frequency
-* Require reactivation strategies
-
-### 🔵 Cluster 2 — Moderate regular customers
-
-* Balanced spending and frequency
-* Good candidates for upsell
-
-### ⚪ Cluster 3 — Low-engagement customers
-
-* Low spending and interaction
-* Price-sensitive or occasional buyers
+### ⚪ Low-Engagement Customers
+- Low spend and activity  
+➡️ Priority: Cost-efficient targeting
 
 ---
 
-## 📊 Results & Dashboard
-
-### 📍 Customer Segmentation Overview
-
-![Segmentation](dashboard/segmentation.png)
-
-### 💰 Revenue & Cluster Performance
-
-![Performance](dashboard/performance.png)
-
-### 🌍 Executive CRM View
-
-![Executive](dashboard/overview.png)
-
-### 🎯 Strategic CRM Actions
-
-![Strategy](dashboard/strategy.png)
-
-👉 The project includes an **interactive Power BI dashboard** providing a business-oriented view of customer segments, performance, and strategic recommendations.
+## 📈 Key Insights
+- A small segment of customers drives the majority of revenue  
+- Clear behavioral differences between clusters  
+- Significant opportunity for CRM personalization  
+- Identification of churn-risk customers  
 
 ---
 
-## 💡 Key Insights
-
-* Identification of high-value customers driving revenue
-* Detection of churn-risk segments
-* Clear behavioral differences between customer groups
-* Opportunity to personalize CRM strategies
-
----
-
-## 📈 Business Impact
-
-* Improved CRM targeting
-* Personalized marketing campaigns
-* Increased customer retention
-* Potential uplift in campaign performance
+## 💼 Business Impact
+- Improved customer targeting  
+- Personalized marketing campaigns  
+- Increased retention potential  
+- Data-driven CRM strategy  
 
 ---
 
-## 🚀 Recommendations
-
-* 🎯 Loyalty programs for high-value customers
-* 🔁 Win-back campaigns for inactive users
-* 💰 Upsell strategies for moderate customers
-* 📉 Cost-efficient targeting for low-engagement segment
+## 🎯 Strategic Recommendations
+- Launch loyalty programs for high-value customers  
+- Implement win-back campaigns for at-risk users  
+- Develop upsell strategies for moderate customers  
+- Optimize budget allocation for low-engagement segments  
 
 ---
 
-## 📂 Project Structure
+## 🛠️ Tools & Technologies
+- **Python** (Pandas, NumPy, Scikit-learn)  
+- **SQL**  
+- **Power BI**  
+- **Jupyter Notebook**
 
+---
+
+## 📁 Project Structure
 ```bash
-.
 ├── segmentation_analysis.ipynb
 ├── dashboard/
+│   ├── overview.png
 │   ├── segmentation.png
 │   ├── performance.png
-│   ├── overview.png
-│   └── strategy.png
+│   ├── strategy.png
 ├── requirements.txt
-└── README.md
-```
+├── README.md
 
 ---
 
